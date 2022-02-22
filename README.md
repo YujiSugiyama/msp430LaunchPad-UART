@@ -28,9 +28,9 @@ J3(J2) jumper<br>
 Note<br>
   A) MSP430 Application UART driver does not change the uart baudrate on MSP430-EXP430G2LaunchPad MSP430F16x and 9600bps is fixed.<br>
     So baudrate must be 9600bps(See usci.h and timerA.h)<br>
-    #define BAUDRATE &#009; 9600UL &#009; // usci.h<br>
+    #define BAUDRATE    &#009; 9600UL &#009; // usci.h<br>
     #define TA_BAUDRATE &#009; 9600UL &#009; // timerA.h<br>   
-  B) If you like to use USB-COM(USB serial converter) instead, connect appropriately. Allowed to choose the baudrate whatever you like. <br>
+  B) If you like to use USB-COM(USB serial converter) instead, connect appropriately. Allowed to choose whatever baudrate you like. <br>
     EX. Type3) Timer1_A -> P2.3---Rx@USB-Serial, P2.4---Tx@USB-Serial (Cross)<br>
 </pre>
     
