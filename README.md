@@ -1,8 +1,8 @@
 # msp430LaunchPad-UART
 Sample code on MSP-EXP430G2 with MSP4302553
 
-3 type UART: Choose as you like. Plus, allowed to use 2 channel UARTs with 1)+3).(Choose only one at the sample program)
-  Type1) Use H/W USCI: P1.1(Rx)/P1.2(Tx)
+3 type UART: Choose as you like. Plus, allowed to use 2 channel UARTs with 1)+3).(Choose only one at the sample program)<br>
+  Type1) Use H/W USCI: P1.1(Rx)/P1.2(Tx)<br>
   Type2) Use Timer0_A: P1.1(Tx)/P1.2(Rx)
   Type3) Use Timer1_A: P2.3(Tx)/P2.4(Rx)
   
