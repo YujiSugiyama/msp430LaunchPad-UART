@@ -31,6 +31,6 @@ Note<br>
     #define BAUDRATE    &#009; 9600UL &#009; // usci.h<br>
     #define TA_BAUDRATE &#009; 9600UL &#009; // timerA.h<br>   
   B) If you like to use USB-COM(USB serial converter) instead, connect appropriately. Allowed to choose whatever baudrate you like. <br>
-    EX. Type3) Timer1_A -> P2.3---Rx@USB-Serial, P2.4---Tx@USB-Serial (Cross)<br>
+    EX. Type3)(Timer1_A) : P2.3---Rx@USB-Serial, P2.4---Tx@USB-Serial (Cross)<br>
 </pre>
     
