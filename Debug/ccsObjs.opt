@@ -1,0 +1,1 @@
+"./clock.obj" "./main.obj" "./strlib.obj" "./timerA.obj" "./usci.obj" "../lnk_msp430g2553.cmd" -llibc.a 
