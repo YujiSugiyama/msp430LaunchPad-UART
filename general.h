@@ -14,7 +14,7 @@ typedef	unsigned char	uint8_t;
 typedef	unsigned int	uint16_t;
 typedef unsigned long	uint32_t;
 
-#define	UART	0		// 0:TIMERA0_UART, 1:USCI_UART
+#define	UART	0		// 0:TimerA_UART, 1:USCI_UART
 
 /*
  * Pin assignment
