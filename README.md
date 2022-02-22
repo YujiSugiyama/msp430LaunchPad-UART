@@ -7,11 +7,13 @@ Sample code on MSP-EXP430G2 with MSP4302553
   Type3) Use Timer1_A: P2.3(Tx)/P2.4(Rx)<br>
   
 How to choose one at the program code.<br>
+<pr>
   Type1) Use H/W USCI:  #define UART    1 &#009;   // @general.h, 0:TimerA_UART, 1:USCI_UART<br>
-  Type2) Use Timer0_A:  #define UART    0   // @general.h, 0:TimerA_UART, 1:USCI_UART<br>
-                        #define TimerA  0   // @timerA.h<br>
-  Type3) Use Timer1_A:  #define UART    0   // @general.h, 0:TimerA_UART, 1:USCI_UART<br>
-                        #define TimerA  1   // @timerA.h<br>
+  Type2) Use Timer0_A:  #define UART    0 &#009;     // @general.h, 0:TimerA_UART, 1:USCI_UART<br>
+                        #define TimerA  0 &#009;     // @timerA.h<br>
+  Type3) Use Timer1_A:  #define UART    0 &#009;     // @general.h, 0:TimerA_UART, 1:USCI_UART<br>
+                        #define TimerA  1 &#009;     // @timerA.h<br>
+</pr>
 
 J3(J2) jumper<br>
   Type1) J3: 2-4 short, 1-3 short<br>
